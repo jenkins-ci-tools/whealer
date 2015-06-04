@@ -1,0 +1,22 @@
+{
+    "event": "suiteStart",
+    "suite": "ParaTest Fixtures",
+    "tests": 1
+}{
+    "event": "suiteStart",
+    "suite": "Whealer\\Test\\Notify\\SendmailTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "Whealer\\Test\\Notify\\SendmailTest",
+    "test": "Whealer\\Test\\Notify\\SendmailTest::get"
+}{
+    "event": "test",
+    "suite": "Whealer\\Test\\Notify\\SendmailTest",
+    "test": "Whealer\\Test\\Notify\\SendmailTest::get",
+    "status": "pass",
+    "time": 0.013412952423096,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

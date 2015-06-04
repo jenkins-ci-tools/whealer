@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1433393231">
+  <project timestamp="1433393231">
+    <package name="Whealer\Notify">
+      <file name="/Users/aozora0000/Projects/Whealer/whealer/src/Whealer/Notify/AbstructService.php">
+        <class name="AbstructService" namespace="Whealer\Notify">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="21" type="method" name="__construct" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="37" type="method" name="getInstance" crap="1" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="56" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="Whealer\Notify\Services">
+      <file name="/Users/aozora0000/Projects/Whealer/whealer/src/Whealer/Notify/Services/Sendmail.php">
+        <class name="Sendmail" namespace="Whealer\Notify\Services">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="23" elements="29" coveredelements="23"/>
+        </class>
+        <line num="16" type="method" name="get" crap="5.14" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <metrics loc="49" ncloc="41" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="23" elements="29" coveredelements="23"/>
+      </file>
+    </package>
+    <package name="Whealer\Shell">
+      <file name="/Users/aozora0000/Projects/Whealer/whealer/src/Whealer/Shell/CommandCreator.php">
+        <class name="CommandCreator" namespace="Whealer\Shell">
+          <metrics methods="5" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="13" elements="22" coveredelements="15"/>
+        </class>
+        <line num="14" type="method" name="get" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="28" type="method" name="which" crap="1" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="41" type="method" name="pipe" crap="2" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="52" type="method" name="join" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="63" type="method" name="createArgs" crap="4.13" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <metrics loc="78" ncloc="44" classes="1" methods="5" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="13" elements="22" coveredelements="15"/>
+      </file>
+    </package>
+    <metrics files="3" loc="183" ncloc="110" classes="3" methods="8" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="45" elements="62" coveredelements="49"/>
+  </project>
+</coverage>
