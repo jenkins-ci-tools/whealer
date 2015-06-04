@@ -28,7 +28,7 @@ class Hipchat extends Service
         }
         $arg = $this->arg;
         $paramater = sprintf('"room_id=%s&from=%s&color=%s&notify=1"', $arg->room_id, $arg->user_name, $color);
-        $message = "\"Build: {$result}! \n<a href='{$commit_url}'>{$branch} #{$commit_id}@{$commit_auther}</a>\"";
+        $message = "\"Build: {$result}! \n<a href='{$commit_url}'>{$branch} #{$commit_id}@{$commit_auther}</a>\n {$commit_comment}\"";
         return CommandCreator::get("curl",["-d"=>$paramater, "--data-urlencode"=> "message={$message}"], sprintf(self::ENDPOINT, $arg->api_token));
     }
 }

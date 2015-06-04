@@ -26,7 +26,7 @@ class Chatwork extends Service
                 $commit_url = "{$repository_url}/commits/{$commit_id}"; break;
         }
         $arg = $this->arg;
-        $message = "[info][title]Build: {$result} #{$commit_id}@{$commit_auther}[/title]{$commit_url} \n {$commit_comment}[/info]";
+        $message = "[info][title]Build: {$result} {$branch}#{$commit_id}@{$commit_auther}[/title]{$commit_url} \n {$commit_comment}[/info]";
         return CommandCreator::get("curl", [
             "-X"=>"POST",
             "-H"=>"\"X-ChatWorkToken: {$arg->api_token}\"",

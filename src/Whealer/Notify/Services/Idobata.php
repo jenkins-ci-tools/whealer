@@ -30,7 +30,7 @@ class Idobata extends Service
                 $commit_url = "{$repository_url}/commits/{$commit_id}"; break;
         }
         $message  = "<p><span class=\"label label-{$class}\">Build: {$result}</span></p>";
-        $message .= "<ul><li>commited by ${commit_auther} <a href='{$commit_url}'>{$branch} #{$commit_id}</a></li></ul>";
+        $message .= "<ul><li>commited by {$commit_auther} <a href='{$commit_url}'>{$branch} #{$commit_id}</a></li></ul>";
         $message .= "<pre>{$commit_comment}</pre>";
         return CommandCreator::get("curl",["-d"=>"format=html","--data-urlencode"=> "source='{$message}'"], $arg->end_point);
     }
